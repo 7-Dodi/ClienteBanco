@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Ubuntu:wght@300&display=swap"
+      rel="stylesheet"
+    />
+</head>
+<body>
+    <main>
+        <div class="question">
+            <h2>Questão 4</h2>
+            <p>
+                Crie um novo projeto com uma página que tem um formulário 
+                para um objeto baseado em uma classe Transacao, com no 
+                mínimo os campos Descrição (texto) e Valor, e um botão 
+                Adicionar que ao clicar adicione uma nova transação, 
+                mostrada em uma tabela (table). Caso a transação seja 
+                com valor negativo (despesa), mostre o valor em vermelho, 
+                caso seja positivo (receita), mostre em verde. Ao final da 
+                tabela, mostre o total de saldo.
+            </p>
+        </div>
+        <div class="inputs">
+            <h3>Transação Financeira:</h3>
+            <div class="nome">
+                <input type="text" id="nome" placeholder="Seu nome...">
+            </div>
+            <div class="saldo">
+                <input type="text" id="saldo" placeholder="Saldo atual:">
+            </div>
+            <div class="descricao">
+                <input type="text" id="descricao" placeholder="Descrição da transição...">
+            </div>
+            <div class="valor">
+                <h4>Valor:</h4>
+                <input type="text" id="valor" placeholder="R$:">
+            </div>
+            <div class="buttons">
+                <button id="confirm" type="submit">Confirma</button>
+                <button id="apagar" type="submit">Limpar</button>
+            </div>
+            <table>
+
+            </table>
+        </div>
+    </main>
+    <script src="cafeina.js"></script>
+</body>
+</html>

@@ -1,0 +1,75 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: "Press Start 2P", cursive;
+    font-family: "Ubuntu", sans-serif;
+}
+body{
+    width: 100%;
+}
+
+main{
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 20px;
+}
+
+.question{
+    margin-bottom: 20px;
+    text-align: justify;
+}
+.question h2{
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.inputs{
+    position: absolute;
+    top:30%;
+    left: 50%;
+    transform: translate(-50%);
+}
+.inputs input{
+    width: 250px;
+    padding: 6px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-color: #DDD;
+    border-radius: 15px;
+}
+.inputs h4{
+    margin-left: 10px;
+}
+.inputs h3{
+    text-align: center;
+}
+
+.buttons{
+    margin-left: 25%;
+    margin-top: 5px;
+}
+.buttons button{
+    padding: 5px;
+    margin-left: 5px;
+    border-radius: 18px;
+    border: transparent;
+    color: #fff;
+}
+#confirm{
+    background-color: rgb(11, 159, 122);
+}
+#apagar{
+    background-color: rgb(206, 10, 131);
+}
+
+table td{
+    border: 2px solid rgb(251, 154, 84);
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    padding: 5px;
+    border-radius: 18px;
+    margin-left: 25px;
+}
